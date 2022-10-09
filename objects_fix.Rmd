@@ -1,0 +1,132 @@
+---
+title: "Teachers"
+output: html_document
+date: "2022-10-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## LIBRARIES
+
+```{r}
+library(RSQLite)
+library(DBI)
+library(dplyr)
+```
+
+## IMPORT
+
+```{r}
+con <- dbConnect(SQLite(), "/Users/User/Documents/Teachers/teachers.db")
+```
+
+## DATA
+
+### IQ Score 2022
+
+Source: <https://worldpopulationreview.com/country-rankings/average-iq-by-country>
+
+```{r}
+iq_country199 <- dbGetQuery(con,
+                           "select country, iq from iq;")
+iq_country199
+```
+
+```{r}
+#write.csv(iq_country199, "199countries_iqscore.csv")
+```
+
+Plot (lollipop-h)
+
+### PISA Score 2018
+
+PISA measures 15-year-olds' ability to use their reading, mathematics and science knowledge and skills to meet real-life challenges. The objective of PISA is to measure the “yield” of education systems, or what skills and competencies students have acquired and can apply in reading, mathematics, and science to real-world contexts by age 15.
+Source : <https://worldpopulationreview.com/country-rankings/pisa-scores-by-country>
+
+```{r}
+pisa_score78 <- dbGetQuery(con, 
+                           "select country_name
+                           , reading_mean reading
+                           , math_mean math
+                           , science_mean science 
+                           from pisa_score;")
+pisa_score78
+```
+
+```{r}
+ranked_pisascore78 <- pisa_score78 %>% 
+  mutate(rank_reading = order(order(reading, decreasing = T))) %>%
+  mutate(rank_math = order(order(math, decreasing = T))) %>%
+  mutate(rank_science = order(order(science, decreasing = T)))
+ranked_pisascore78
+```
+
+```{r}
+write.csv(ranked_pisascore78, "79countries_rankedpisa.csv")
+```
+
+
+
+Horizontal Stacked Bar Chart
+
+### Government Spending on Education varying 2016 to 2021
+
+Government expenditure is defined as all government spending in an economy. Government expenditure consists of two parts, current government expenditure and capital government expenditure: Current expenditure - government spending on the day-to-day operations of government, for example the costs of running a hospital. Government purchases are expenditures on goods and services by federal, state, and local governments. The combined total of this spending, excluding transfer payments and interest on the debt, is a key factor in determining a nation's gross domestic product (GDP).
+Source: <https://ourworldindata.org/grapher/share-of-education-in-government-expenditure?tab=table>
+
+```{r}
+government_expenditure192 <- dbGetQuery(con, 
+                                        "select country_id, country_name, 
+                                        max(year) as latest_year,
+                                        percent_total_expenditure from expenditure
+                                        group by country_id;")
+government_expenditure192
+```
+
+Vertical Bar Chart
+
+### Education Gap 2021 for HLS, 2022 for Student, Teacher, School
+
+```{r}
+edu_gap_idn <- dbGetQuery(con, 
+                          "select sc.no, sc.prov_name
+                          , sc.sd_total+sc.smp_total+sc.sma_total school
+                          , st.sd_total+st.smp_total+st.sma_total student
+                          , tc.sd_total+tc.smp_total+tc.sma_total teacher
+                          , hls.angka_hls, hls.rata_lama_sekolah
+                          from school_idn sc
+                          join student_idn st on st.prov_name = sc.prov_name
+                          join teacher_idn tc on tc.prov_name = sc.prov_name
+                          join hls_id hls on hls.prov_name = sc.prov_name
+                          where sc.no is not '';")
+edu_gap_idn
+```
+
+Map chart
+
+### Regression Data
+
+```{r}
+reg_data <- dbGetQuery(con, 
+                       "select s.country_id, s.country_name
+                        , avg(s.salary) salary
+                        , e.expenditure_percapita
+                        , n.`2020` as net_user
+                        , h.expected_school
+                        , h.years_school
+                        , p.reading_mean
+                        , p.math_mean
+                        , p.science_mean
+                        , i.country_index 
+                        from salary s
+                        join expenditure_percapita e on e.country_id = s.country_id
+                        join net_users n on n.country_id = s.country_id
+                        join hdi_country h on h.country_id = s.country_id
+                        inner join pisa_score p on p.country_id = s.country_id
+                        inner join edu_index i on i.country_id = s.country_id
+                        group by s.country_id;")
+reg_data
+```
+
