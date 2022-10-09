@@ -1,193 +1,193 @@
-no;country_id;country_name;latest_year;percent_total_expenditure
-1;ABW;Aruba;2016;21.36655045
-2;AFG;Afghanistan;2021;10.88010979
-3;AGO;Angola;2021;6.919610023
-4;ALB;Albania;2019;13.43546963
-5;AND;Andorra;2021;10.26473999
-6;ARE;United Arab Emirates;2019;10.26766014
-7;ARG;Argentina;2019;12.5300703
-8;ARM;Armenia;2021;8.278089523
-9;ATG;Antigua and Barbuda;2021;9.903229713
-10;AUS;Australia;2018;13.48046017
-11;AUT;Austria;2018;10.72770023
-12;AZE;Azerbaijan;2021;11.4832201
-13;BDI;Burundi;2018;18.79343033
-14;BEL;Belgium;2018;12.22383976
-15;BEN;Benin;2018;17.70918083
-16;BFA;Burkina Faso;2018;22.66116905
-17;BGD;Bangladesh;2021;11.69087029
-18;BGR;Bulgaria;2017;12.73095036
-19;BHR;Bahrain;2017;7.223849773
-20;BHS;Bahamas;2021;10.11715031
-21;BLR;Belarus;2021;16.53804016
-22;BLZ;Belize;2021;22.17474937
-23;BMU;Bermuda;2017;7.773469925
-24;BRA;Brazil;2018;16.1483593
-25;BRB;Barbados;2021;16.5802002
-26;BRN;Brunei;2016;11.44194984
-27;BTN;Bhutan;2021;16.24025917
-28;BWA;Botswana;2019;15.35272026
-29;CAF;Central African Republic;2021;9.088689804
-30;CAN;Canada;2011;12.21914005
-31;CHE;Switzerland;2018;15.52665997
-32;CHL;Chile;2018;21.37952995
-33;CHN;China;2018;11.45069027
-34;CIV;Cote d'Ivoire;2021;14.97817993
-35;CMR;Cameroon;2021;14.8910799
-36;COD;Democratic Republic of Congo;2017;14.00642014
-37;COG;Congo;2021;16.5838604
-38;COL;Colombia;2019;14.13658047
-39;COM;Comoros;2015;13.35217953
-40;CPV;Cape Verde;2021;15.11297989
-41;CRI;Costa Rica;2020;21.53948021
-42;CYP;Cyprus;2017;15.67893028
-43;CZE;Czechia;2018;10.51187038
-44;DEU;Germany;2018;11.23017979
-45;DJI;Djibouti;2018;13.99153042
-46;DMA;Dominica;2021;8.293609619
-47;DNK;Denmark;2017;15.33633041
-48;DOM;Dominican Republic;2021;18.01491928
-49;DZA;Algeria;2021;16.2131691
-50;ECU;Ecuador;2020;11.46755028
-51;EGY;Egypt;2008;10.94180012
-52;ERI;Eritrea;2006;5.168069839
-53;ESP;Spain;2018;10.0303297
-54;EST;Estonia;2018;13.39284992
-55;ETH;Ethiopia;2018;24.00155067
-56;FIN;Finland;2018;11.75162029
-57;FJI;Fiji;2021;14.46442032
-58;FRA;France;2018;9.724829674
-59;FRO;Faeroe Islands;2019;15.41162968
-60;FSM;Micronesia (country);2019;18.10730934
-61;GAB;Gabon;2021;15.12353039
-62;GBR;United Kingdom;2018;13.34407997
-63;GEO;Georgia;2020;11.17150974
-64;GHA;Ghana;2018;18.59816933
-65;GIN;Guinea;2021;11.92442989
-66;GMB;Gambia;2018;11.18826962
-67;GNB;Guinea-Bissau;2017;15
-68;GNQ;Equatorial Guinea;1998;5.248139858
-69;GRC;Greece;2018;7.42550993
-70;GRD;Grenada;2017;14.04117012
-71;GTM;Guatemala;2020;21.1411705
-72;GUY;Guyana;2018;16.00617027
-73;HKG;Hong Kong;2020;20.62105942
-74;HND;Honduras;2021;24.59828949
-75;HRV;Croatia;2017;8.638710022
-76;HTI;Haiti;2018;14.64414024
-77;HUN;Hungary;2018;10.07503986
-78;IDN;Indonesia;2020;17.25805092
-79;IND;India;2016;12.75354958
-80;IRL;Ireland;2018;13.20294952
-81;IRN;Iran;2019;21.24616051
-82;ISL;Iceland;2018;17.21715927
-83;ISR;Israel;2018;15.52122021
-84;ITA;Italy;2018;8.795740128
-85;JAM;Jamaica;2019;17.31398964
-86;JOR;Jordan;2019;9.859749794
-87;JPN;Japan;1999;8.732540131
-88;KAZ;Kazakhstan;2019;14.10953045
-89;KEN;Kenya;2018;19.03519058
-90;KGZ;Kyrgyzstan;2019;16.47274971
-91;KHM;Cambodia;2018;9.385020256
-92;KIR;Kiribati;2021;19.27183914
-93;KNA;Saint Kitts and Nevis;2015;8.635499954
-94;KWT;Kuwait;2020;11.91267014
-95;LAO;Laos;2014;11.75734997
-96;LBN;Lebanon;2020;9.89828968
-97;LBR;Liberia;2018;8.147789955
-98;LBY;Libya;1999;8.138730049
-99;LCA;Saint Lucia;2021;14.46759033
-100;LKA;Sri Lanka;2018;11.33090019
-101;LSO;Lesotho;2021;13.65828991
-102;LTU;Lithuania;2018;11.74273014
-103;LUX;Luxembourg;2018;8.68144989
-104;LVA;Latvia;2018;11.14750957
-105;MAC;Macao;2019;16.59794998
-106;MAR;Morocco;2019;5.980080128
-107;MCO;Monaco;2019;5.029270172
-108;MDA;Moldova;2019;19.46438026
-109;MDG;Madagascar;2021;15.66672039
-110;MDV;Maldives;2021;11.90775013
-111;MEX;Mexico;2018;16.57785034
-112;MHL;Marshall Islands;2020;16.16671944
-113;MKD;North Macedonia;2002;8.640879631
-114;MLI;Mali;2021;15.95777988
-115;MLT;Malta;2017;13.37271023
-116;MMR;Myanmar;2019;10.56412983
-117;MNG;Mongolia;2020;16.42383003
-118;MOZ;Mozambique;2020;17.9349308
-119;MRT;Mauritania;2020;9.745059967
-120;MUS;Mauritius;2020;16.1177597
-121;MWI;Malawi;2020;11.49765015
-122;MYS;Malaysia;2021;16.37462044
-123;NAM;Namibia;2021;24.80791092
-124;NER;Niger;2021;11.95261955
-125;NGA;Nigeria;2021;5.677509785
-126;NIC;Nicaragua;2017;22.43330002
-127;NLD;Netherlands;2018;12.91154957
-128;NOR;Norway;2018;15.62637043
-129;NPL;Nepal;2018;14.10186958
-130;NRU;Nauru;2021;3.631880045
-131;NZL;New Zealand;2018;16.08296013
-132;OMN;Oman;2020;12.2049799
-133;OWID_WRL;World;2018;13.82756519
-134;PAK;Pakistan;2019;11.59167957
-135;PAN;Panama;2021;11.97052956
-136;PER;Peru;2021;17.87413979
-137;PHL;Philippines;2020;14.23373985
-138;PLW;Palau;2002;15.53765965
-139;PNG;Papua New Guinea;2018;9.227100372
-140;POL;Poland;2018;11.12355042
-141;PRT;Portugal;2018;10.81206036
-142;PRY;Paraguay;2021;9.642350197
-143;PSE;Palestine;2019;17.71245003
-144;QAT;Qatar;2020;9.319160461
-145;ROU;Romania;2018;10.46096039
-146;RUS;Russia;2018;14.34107971
-147;RWA;Rwanda;2020;10.78318977
-148;SAU;Saudi Arabia;2008;19.25741959
-149;SDN;Sudan;2021;12.47558022
-150;SEN;Senegal;2021;21.08209038
-151;SGP;Singapore;2013;28.83914948
-152;SLB;Solomon Islands;2015;25.20870018
-153;SLE;Sierra Leone;2020;34.32725143
-154;SLV;El Salvador;2021;18.13002014
-155;SMR;San Marino;2019;15.05992031
-156;SOM;Somalia;2020;4.412380219
-157;SRB;Serbia;2019;8.604599953
-158;SSD;South Sudan;2018;0.867030025
-159;STP;Sao Tome and Principe;2021;16.58419037
-160;SUR;Suriname;2021;10.10748959
-161;SVK;Slovakia;2018;9.513609886
-162;SVN;Slovenia;2018;11.33996964
-163;SWE;Sweden;2018;15.66701984
-164;SWZ;Eswatini;2014;24.79544067
-165;SYC;Seychelles;2021;10.48375034
-166;SYR;Syria;2009;19.18404961
-167;TCA;Turks and Caicos Islands;2021;13.00747013
-168;TCD;Chad;2021;15.12629032
-169;TGO;Togo;2018;21.76909065
-170;THA;Thailand;2020;16.77131081
-171;TJK;Tajikistan;2021;19.91206932
-172;TKM;Turkmenistan;2019;23.01025009
-173;TLS;Timor;2018;7.881289959
-174;TON;Tonga;2021;12.65264988
-175;TTO;Trinidad and Tobago;2021;8.929389954
-176;TUN;Tunisia;2015;22.66534042
-177;TUR;Turkey;2018;12.40666962
-178;TZA;Tanzania;2018;20.50494003
-179;UGA;Uganda;2018;11.24717999
-180;UKR;Ukraine;2020;15.81424999
-181;URY;Uruguay;2021;15.39081955
-182;UZB;Uzbekistan;2020;20.53565025
-183;VCT;Saint Vincent and the Grenadines;2018;19.01264
-184;VEN;Venezuela;2017;23.8731308
-185;VGB;British Virgin Islands;2021;12.3629303
-186;VNM;Vietnam;2021;14.81748962
-187;VUT;Vanuatu;2020;4.428090096
-188;WSM;Samoa;2020;16.21499062
-189;YEM;Yemen;2008;12.48923969
-190;ZAF;South Africa;2021;18.41724014
-191;ZMB;Zambia;2021;11.51414013
-192;ZWE;Zimbabwe;2018;19.0398407
+"","country_id","country_name","latest_year","percent_total_expenditure"
+"1","ABW","Aruba","2016",21.367
+"2","AFG","Afghanistan","2021",10.88
+"3","AGO","Angola","2021",6.92
+"4","ALB","Albania","2019",13.435
+"5","AND","Andorra","2021",10.265
+"6","ARE","United Arab Emirates","2019",10.268
+"7","ARG","Argentina","2019",12.53
+"8","ARM","Armenia","2021",8.278
+"9","ATG","Antigua and Barbuda","2021",9.903
+"10","AUS","Australia","2018",13.48
+"11","AUT","Austria","2018",10.728
+"12","AZE","Azerbaijan","2021",11.483
+"13","BDI","Burundi","2018",18.793
+"14","BEL","Belgium","2018",12.224
+"15","BEN","Benin","2018",17.709
+"16","BFA","Burkina Faso","2018",22.661
+"17","BGD","Bangladesh","2021",11.691
+"18","BGR","Bulgaria","2017",12.731
+"19","BHR","Bahrain","2017",7.224
+"20","BHS","Bahamas","2021",10.117
+"21","BLR","Belarus","2021",16.538
+"22","BLZ","Belize","2021",22.175
+"23","BMU","Bermuda","2017",7.773
+"24","BRA","Brazil","2018",16.148
+"25","BRB","Barbados","2021",16.58
+"26","BRN","Brunei","2016",11.442
+"27","BTN","Bhutan","2021",16.24
+"28","BWA","Botswana","2019",15.353
+"29","CAF","Central African Republic","2021",9.089
+"30","CAN","Canada","2011",12.219
+"31","CHE","Switzerland","2018",15.527
+"32","CHL","Chile","2018",21.38
+"33","CHN","China","2018",11.451
+"34","CIV","Cote d'Ivoire","2021",14.978
+"35","CMR","Cameroon","2021",14.891
+"36","COD","Democratic Republic of Congo","2017",14.006
+"37","COG","Congo","2021",16.584
+"38","COL","Colombia","2019",14.137
+"39","COM","Comoros","2015",13.352
+"40","CPV","Cape Verde","2021",15.113
+"41","CRI","Costa Rica","2020",21.539
+"42","CYP","Cyprus","2017",15.679
+"43","CZE","Czechia","2018",10.512
+"44","DEU","Germany","2018",11.23
+"45","DJI","Djibouti","2018",13.992
+"46","DMA","Dominica","2021",8.294
+"47","DNK","Denmark","2017",15.336
+"48","DOM","Dominican Republic","2021",18.015
+"49","DZA","Algeria","2021",16.213
+"50","ECU","Ecuador","2020",11.468
+"51","EGY","Egypt","2008",10.942
+"52","ERI","Eritrea","2006",5.168
+"53","ESP","Spain","2018",10.03
+"54","EST","Estonia","2018",13.393
+"55","ETH","Ethiopia","2018",24.002
+"56","FIN","Finland","2018",11.752
+"57","FJI","Fiji","2021",14.464
+"58","FRA","France","2018",9.725
+"59","FRO","Faeroe Islands","2019",15.412
+"60","FSM","Micronesia (country)","2019",18.107
+"61","GAB","Gabon","2021",15.124
+"62","GBR","United Kingdom","2018",13.344
+"63","GEO","Georgia","2020",11.172
+"64","GHA","Ghana","2018",18.598
+"65","GIN","Guinea","2021",11.924
+"66","GMB","Gambia","2018",11.188
+"67","GNB","Guinea-Bissau","2017",15
+"68","GNQ","Equatorial Guinea","1998",5.248
+"69","GRC","Greece","2018",7.426
+"70","GRD","Grenada","2017",14.041
+"71","GTM","Guatemala","2020",21.141
+"72","GUY","Guyana","2018",16.006
+"73","HKG","Hong Kong","2020",20.621
+"74","HND","Honduras","2021",24.598
+"75","HRV","Croatia","2017",8.639
+"76","HTI","Haiti","2018",14.644
+"77","HUN","Hungary","2018",10.075
+"78","IDN","Indonesia","2020",17.258
+"79","IND","India","2016",12.754
+"80","IRL","Ireland","2018",13.203
+"81","IRN","Iran","2019",21.246
+"82","ISL","Iceland","2018",17.217
+"83","ISR","Israel","2018",15.521
+"84","ITA","Italy","2018",8.796
+"85","JAM","Jamaica","2019",17.314
+"86","JOR","Jordan","2019",9.86
+"87","JPN","Japan","1999",8.733
+"88","KAZ","Kazakhstan","2019",14.11
+"89","KEN","Kenya","2018",19.035
+"90","KGZ","Kyrgyzstan","2019",16.473
+"91","KHM","Cambodia","2018",9.385
+"92","KIR","Kiribati","2021",19.272
+"93","KNA","Saint Kitts and Nevis","2015",8.635
+"94","KWT","Kuwait","2020",11.913
+"95","LAO","Laos","2014",11.757
+"96","LBN","Lebanon","2020",9.898
+"97","LBR","Liberia","2018",8.148
+"98","LBY","Libya","1999",8.139
+"99","LCA","Saint Lucia","2021",14.468
+"100","LKA","Sri Lanka","2018",11.331
+"101","LSO","Lesotho","2021",13.658
+"102","LTU","Lithuania","2018",11.743
+"103","LUX","Luxembourg","2018",8.681
+"104","LVA","Latvia","2018",11.148
+"105","MAC","Macao","2019",16.598
+"106","MAR","Morocco","2019",5.98
+"107","MCO","Monaco","2019",5.029
+"108","MDA","Moldova","2019",19.464
+"109","MDG","Madagascar","2021",15.667
+"110","MDV","Maldives","2021",11.908
+"111","MEX","Mexico","2018",16.578
+"112","MHL","Marshall Islands","2020",16.167
+"113","MKD","North Macedonia","2002",8.641
+"114","MLI","Mali","2021",15.958
+"115","MLT","Malta","2017",13.373
+"116","MMR","Myanmar","2019",10.564
+"117","MNG","Mongolia","2020",16.424
+"118","MOZ","Mozambique","2020",17.935
+"119","MRT","Mauritania","2020",9.745
+"120","MUS","Mauritius","2020",16.118
+"121","MWI","Malawi","2020",11.498
+"122","MYS","Malaysia","2021",16.375
+"123","NAM","Namibia","2021",24.808
+"124","NER","Niger","2021",11.953
+"125","NGA","Nigeria","2021",5.678
+"126","NIC","Nicaragua","2017",22.433
+"127","NLD","Netherlands","2018",12.912
+"128","NOR","Norway","2018",15.626
+"129","NPL","Nepal","2018",14.102
+"130","NRU","Nauru","2021",3.632
+"131","NZL","New Zealand","2018",16.083
+"132","OMN","Oman","2020",12.205
+"133","OWID_WRL","World","2018",13.828
+"134","PAK","Pakistan","2019",11.592
+"135","PAN","Panama","2021",11.971
+"136","PER","Peru","2021",17.874
+"137","PHL","Philippines","2020",14.234
+"138","PLW","Palau","2002",15.538
+"139","PNG","Papua New Guinea","2018",9.227
+"140","POL","Poland","2018",11.124
+"141","PRT","Portugal","2018",10.812
+"142","PRY","Paraguay","2021",9.642
+"143","PSE","Palestine","2019",17.712
+"144","QAT","Qatar","2020",9.319
+"145","ROU","Romania","2018",10.461
+"146","RUS","Russia","2018",14.341
+"147","RWA","Rwanda","2020",10.783
+"148","SAU","Saudi Arabia","2008",19.257
+"149","SDN","Sudan","2021",12.476
+"150","SEN","Senegal","2021",21.082
+"151","SGP","Singapore","2013",28.839
+"152","SLB","Solomon Islands","2015",25.209
+"153","SLE","Sierra Leone","2020",34.327
+"154","SLV","El Salvador","2021",18.13
+"155","SMR","San Marino","2019",15.06
+"156","SOM","Somalia","2020",4.412
+"157","SRB","Serbia","2019",8.605
+"158","SSD","South Sudan","2018",0.867
+"159","STP","Sao Tome and Principe","2021",16.584
+"160","SUR","Suriname","2021",10.107
+"161","SVK","Slovakia","2018",9.514
+"162","SVN","Slovenia","2018",11.34
+"163","SWE","Sweden","2018",15.667
+"164","SWZ","Eswatini","2014",24.795
+"165","SYC","Seychelles","2021",10.484
+"166","SYR","Syria","2009",19.184
+"167","TCA","Turks and Caicos Islands","2021",13.007
+"168","TCD","Chad","2021",15.126
+"169","TGO","Togo","2018",21.769
+"170","THA","Thailand","2020",16.771
+"171","TJK","Tajikistan","2021",19.912
+"172","TKM","Turkmenistan","2019",23.01
+"173","TLS","Timor","2018",7.881
+"174","TON","Tonga","2021",12.653
+"175","TTO","Trinidad and Tobago","2021",8.929
+"176","TUN","Tunisia","2015",22.665
+"177","TUR","Turkey","2018",12.407
+"178","TZA","Tanzania","2018",20.505
+"179","UGA","Uganda","2018",11.247
+"180","UKR","Ukraine","2020",15.814
+"181","URY","Uruguay","2021",15.391
+"182","UZB","Uzbekistan","2020",20.536
+"183","VCT","Saint Vincent and the Grenadines","2018",19.013
+"184","VEN","Venezuela","2017",23.873
+"185","VGB","British Virgin Islands","2021",12.363
+"186","VNM","Vietnam","2021",14.817
+"187","VUT","Vanuatu","2020",4.428
+"188","WSM","Samoa","2020",16.215
+"189","YEM","Yemen","2008",12.489
+"190","ZAF","South Africa","2021",18.417
+"191","ZMB","Zambia","2021",11.514
+"192","ZWE","Zimbabwe","2018",19.04

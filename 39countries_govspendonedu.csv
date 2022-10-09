@@ -1,40 +1,40 @@
-no;country_id;country_name;gov_expenditure
-1;ARG;Argentina;12,523
-2;AUS;Australia;12,6
-3;AUT;Austria;10,262
-4;BRA;Brazil;10,412
-5;CAN;Canada;12,01
-6;CHE;Switzerland;14,333
-7;CHL;Chile;13,519
-8;CHN;China;10,439
-9;COL;Colombia;12,475
-10;CRI;Costa Rica;16,744
-11;CZE;Czech Republic;10,197
-12;DEU;Germany;10,036
-13;DNK;Denmark;10,601
-14;EST;Estonia;11,991
-15;FIN;Finland;10,906
-16;FRA;France;10,007
-17;GBR;England (UK);10,216
-18;GRC;Greece;6,204
-19;HUN;Hungary;10,075
-20;IDN;Indonesia;11,594
-21;IRL;Ireland;10,408
-22;ISL;Iceland;10,957
-23;ISR;Israel;12,563
-24;ITA;Italy;7,775
-25;JPN;Japan;10,366
-26;LTU;Lithuania;11,743
-27;LUX;Luxembourg;8,474
-28;LVA;Latvia;11,148
-29;MEX;Mexico;12,155
-30;NOR;Norway;13,185
-31;NZL;New Zealand;10,138
-32;POL;Poland;10,892
-33;PRT;Portugal;10,124
-34;RUS;Russian Federation;10,532
-35;SAU;Saudi Arabia;12,296
-36;SVK;Slovak Republic;10,049
-37;SVN;Slovenia;10,079
-38;SWE;Sweden;10,15
-39;TUR;Türkiye;12,407
+"","country_id","country_name","gov_expenditure"
+"1","ARG","Argentina",12.523
+"2","AUS","Australia",12.6
+"3","AUT","Austria",10.262
+"4","BRA","Brazil",10.412
+"5","CAN","Canada",12.01
+"6","CHE","Switzerland",14.333
+"7","CHL","Chile",13.519
+"8","CHN","China",10.439
+"9","COL","Colombia",12.475
+"10","CRI","Costa Rica",16.744
+"11","CZE","Czech Republic",10.197
+"12","DEU","Germany",10.036
+"13","DNK","Denmark",10.601
+"14","EST","Estonia",11.991
+"15","FIN","Finland",10.906
+"16","FRA","France",10.007
+"17","GBR","England (UK)",10.216
+"18","GRC","Greece",6.204
+"19","HUN","Hungary",10.075
+"20","IDN","Indonesia",11.594
+"21","IRL","Ireland",10.408
+"22","ISL","Iceland",10.957
+"23","ISR","Israel",12.563
+"24","ITA","Italy",7.775
+"25","JPN","Japan",10.366
+"26","LTU","Lithuania",11.743
+"27","LUX","Luxembourg",8.474
+"28","LVA","Latvia",11.148
+"29","MEX","Mexico",12.155
+"30","NOR","Norway",13.185
+"31","NZL","New Zealand",10.138
+"32","POL","Poland",10.892
+"33","PRT","Portugal",10.124
+"34","RUS","Russian Federation",10.532
+"35","SAU","Saudi Arabia",12.296
+"36","SVK","Slovak Republic",10.049
+"37","SVN","Slovenia",10.079
+"38","SWE","Sweden",10.15
+"39","TUR","Türkiye",12.407

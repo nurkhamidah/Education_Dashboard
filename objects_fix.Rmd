@@ -35,7 +35,7 @@ iq_country199
 ```
 
 ```{r}
-#write.csv(iq_country199, "199countries_iqscore.csv")
+write.csv2(iq_country199, "199countries_iqscore.csv", sep = ";")
 ```
 
 Plot (lollipop-h)
@@ -64,10 +64,8 @@ ranked_pisascore78
 ```
 
 ```{r}
-write.csv(ranked_pisascore78, "79countries_rankedpisa.csv")
+write.(ranked_pisascore78, "79countries_rankedpisa.csv", sep = ";")
 ```
-
-
 
 Horizontal Stacked Bar Chart
 
@@ -83,6 +81,10 @@ government_expenditure192 <- dbGetQuery(con,
                                         percent_total_expenditure from expenditure
                                         group by country_id;")
 government_expenditure192
+```
+
+```{r}
+write.csv2(government_expenditure192, "192countries_govexpend.csv", sep = ";")
 ```
 
 Vertical Bar Chart
@@ -104,7 +106,18 @@ edu_gap_idn <- dbGetQuery(con,
 edu_gap_idn
 ```
 
+```{r}
+write.csv2(edu_gap_idn, "34provinces_edugap.csv", sep = ";")
+```
+
 Map chart
+
+### Salary 2021
+
+```{r}
+
+```
+
 
 ### Regression Data
 
@@ -113,6 +126,7 @@ reg_data <- dbGetQuery(con,
                        "select s.country_id, s.country_name
                         , avg(s.salary) salary
                         , e.expenditure_percapita
+                        , d.percent_total_expenditure gov_expenditure
                         , n.`2020` as net_user
                         , h.expected_school
                         , h.years_school
@@ -126,7 +140,139 @@ reg_data <- dbGetQuery(con,
                         join hdi_country h on h.country_id = s.country_id
                         inner join pisa_score p on p.country_id = s.country_id
                         inner join edu_index i on i.country_id = s.country_id
+                        inner join expenditure d on d.country_id = s.country_id
                         group by s.country_id;")
 reg_data
 ```
+
+```{r}
+# https://etateach.com/teacher-salaries-around-the-world.html#Argentina
+reg_data['salary'][reg_data['country_id'] == 'ARG'] = 9647
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Australia
+reg_data['salary'][reg_data['country_id'] == 'AUS'] = 62300
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Austria
+reg_data['salary'][reg_data['country_id'] == 'AUT'] = 45807.35
+
+# https://www.salaryexpert.com/salary/job/teacher/brazil
+reg_data['salary'][reg_data['country_id'] == 'BRA'] = 16748.51
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Canada
+reg_data['salary'][reg_data['country_id'] == 'CAN'] = 55345
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Switzerland
+reg_data['salary'][reg_data['country_id'] == 'CHE'] = 99302
+
+# https://www.salaryexpert.com/salary/job/teacher/chile
+reg_data['salary'][reg_data['country_id'] == 'CHL'] = 18194.714
+
+# https://www.salaryexpert.com/salary/job/teacher/china
+reg_data['salary'][reg_data['country_id'] == 'CHN'] = 25788.78
+reg_data['expenditure_percapita'][reg_data['country_id'] == 'CHN'] = 4698.876
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Colombia
+reg_data['salary'][reg_data['country_id'] == 'COL'] = 9684
+
+# https://www.salaryexpert.com/salary/job/teacher/costa-rica
+reg_data['salary'][reg_data['country_id'] == 'CAN'] = 19112.28
+
+# https://id.indeed.com/career/guru/salaries
+reg_data['salary'][reg_data['country_id'] == 'CRI'] = 4724.24
+
+reg_data
+```
+
+```{r}
+# https://etateach.com/teacher-salaries-around-the-world.html#Czechia
+reg_data['salary'][reg_data['country_id'] == 'CZE'] = 12203
+
+# https://www.salaryexpert.com/salary/job/teacher/denmark
+reg_data['salary'][reg_data['country_id'] == 'DNK'] = 55184
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Estonia
+reg_data['salary'][reg_data['country_id'] == 'EST'] = 19061.22
+
+# https://www.salaryexpert.com/salary/job/teacher/brazil
+reg_data['salary'][reg_data['country_id'] == 'FRA'] = 16748.51
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Hungary
+reg_data['salary'][reg_data['country_id'] == 'HUN'] = 15564
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Indonesia
+reg_data['salary'][reg_data['country_id'] == 'IDN'] = 4630.32
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Iceland
+reg_data['salary'][reg_data['country_id'] == 'ISL'] = 41989.44
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Israel
+reg_data['salary'][reg_data['country_id'] == 'ISR'] = 47568
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Japan
+reg_data['salary'][reg_data['country_id'] == 'JPN'] = 36384
+reg_data['expenditure_percapita'][reg_data['country_id'] == 'JPN'] = 10404.085
+
+# https://www.salaryexpert.com/salary/job/teacher/luxembourg
+reg_data['salary'][reg_data['country_id'] == 'LUX'] = 60394.64
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Latvia
+reg_data['salary'][reg_data['country_id'] == 'LVA'] = 11927.88
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Mexico
+reg_data['salary'][reg_data['country_id'] == 'MEX'] = 16044
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Norway
+reg_data['salary'][reg_data['country_id'] == 'NOR'] = 44189
+
+reg_data
+```
+
+```{r}
+# https://etateach.com/teacher-salaries-around-the-world.html#New_Zealand
+reg_data['salary'][reg_data['country_id'] == 'NZL'] = 48949
+reg_data['expenditure_percapita'][reg_data['country_id'] == 'NZL'] = 17079.105
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Poland
+reg_data['salary'][reg_data['country_id'] == 'POL'] = 18068
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Portugal
+reg_data['salary'][reg_data['country_id'] == 'PRT'] = 15358.53
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Russia
+reg_data['salary'][reg_data['country_id'] == 'RUS'] = 15192
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Saudi_Arabia
+reg_data['salary'][reg_data['country_id'] == 'SAU'] = 40224
+
+# https://etateach.com/teacher-salaries-around-the-world.html#Turkey
+reg_data['salary'][reg_data['country_id'] == 'TUR'] = 5871.78
+reg_data['expenditure_percapita'][reg_data['country_id'] == 'TUR'] = 3062.756
+
+reg_data
+
+```
+
+```{r}
+for(i in 3:ncol(reg_data)){
+  reg_data[,i] <- as.numeric(reg_data[,i])
+}
+reg_data$expenditure_percapita <- round(reg_data$expenditure_percapita, 3)
+reg_data$gov_expenditure <- round(reg_data$gov_expenditure, 3)
+reg_data$net_user <- round(reg_data$net_user, 3)
+reg_data
+```
+
+```{r}
+write.csv(reg_data, "39countries_alldatacotttt.csv", sep = ";", dec = ".")
+salary <- reg_data[, c('country_id', 'country_name', 'salary', 'expenditure_percapita')]
+salary
+gov_expenditures <- reg_data[, c('country_id', 'country_name', 'gov_expenditure')]
+gov_expenditures
+```
+
+```{r}
+write.csv2(salary, "39countries_salary.csv", sep = ";")
+write.csv2(gov_expenditures, "39countries_govspendonedu.csv", sep = ";")
+```
+
 
